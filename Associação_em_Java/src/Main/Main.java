@@ -44,7 +44,7 @@ System.out.println("*** \n");
 Foto.adicionafuncionario(layla);
 
 
-    for(Funcionario Foto.getFuncionarios()){
+    for(Funcionario f: Foto.getFuncionarios()){
    
      System.out.println(f.getNome());
     }
